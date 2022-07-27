@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="unique-theme">
+
+    <title>Remake of Future of Chatbots & Conversational AI 3.0</title>
+
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+<style>
+#snackbar1111 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #fff;
+  color: #333 !important;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar1111.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+</style>
+</head>
+
+<body>
+
+<div id="snackbar1111"><h4 syle="color: #32CD32 !important;">Thank you! We will get back to you shortly.</h4></div>
+    <div class="page-wrapper">
+        <!-- Start header -->
+        <header id="header" class="site-header header-style-1">
+            <nav class="navigation navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><img src="assets/images/logo1.png" alt></a>
+                    </div>
+                    <!-- end of nav-collapse -->
+                </div>
+                <!-- end of container -->
+            </nav>
+        </header>
+        <!-- end of header -->
+
+        <!-- start of hero -->
+        <style>
+            .slide-bg-image{
+                background-image:
+                    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(38, 126, 67, 0.747)),
+                    url('assets/images/slider/robot.jpg');
+            }
+        </style>
+        <section class="hero-slider hero-style-1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">                   
+                    <div class="">
+                        <div class="slide-inner slide-bg-image">
+                            <div class="container">
+                               <div data-swiper-parallax="300" class="slide-title">
+                                    <h2>Future of Chatbots & Conversational AI 3.0 <br>#FOCA3.0</h2>
+                                </div>
+                                <div data-swiper-parallax="400" class="slide-text">
+                                    <p> Date: 9th Nov, 2021 <br>Time - 1500 BST/1000 ET<br></p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div data-swiper-parallax="500" class="slide-btns">
+                                    <a href="#" class="theme-btn"  target="_blank">Reserve your pass now<span></span></a>
+                                    <a href="#" class="theme-btn btn btn-danger"  data-toggle="modal" data-target="#form2">Interested in Sponsorship<span></span></a>
+                                </div>
+                        </div>
+                        <!-- end slide-inner -->
+                    </div>
+                    <!-- end swiper-slide -->
+                </div>
+                <!-- end swiper-wrapper -->
+
+                <!-- swipper controls -->
+            </div>
+        </div>
+
+    <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h3 class="modal-title" id="exampleModalLabel">Register</h3>
+            <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="formData1">
+        <div class="modal-body">
+                 <div class="form-group">
+            <label for="email1">Name</label>
+            <input type="name" class="form-control" id="email1"  name="name" aria-describedby="emailHelp" placeholder="Enter your name">          
+          </div>
+          <input type="hidden" class="form-control"  name="subject" value="I'm Interested" >
+          <div class="form-group">
+            <label for="email1">Email address</label>
+            <input type="email" class="form-control" id="email1"  name="email" aria-describedby="emailHelp" placeholder="Enter Your Email">
+          </div>
+          <div class="form-group">
+            <label for="password1">Number</label>
+            <input type="number" class="form-control" id="password1" name="number" placeholder="Enter Your Number">
+          </div>
+          <div class="form-group">
+            <label for="password1">Message</label>
+            </div>
+           <textarea rows="4" cols="67"  name="comment" > </textarea>
+        </div>
+        <div class="modal-footer border-top-0 d-flex justify-content-center">
+          <button type="button" onclick="sendMail(1)" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+        
+        <div class="modal fade" id="form1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h5 class="modal-title" id="exampleModalLabel">Information</h5>
+         <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="formData2">
+        <div class="modal-body">
+             <div class="form-group">
+            <label for="email1">Full Name</label>
+            <input type="name" class="form-control" id="formData2name"  name="name" aria-describedby="emailHelp" placeholder="Enter your name">
+            <input type="hidden" class="form-control"  name="subject" value="Reserve your pass now">          
+          </div>
+          <span id="formData2name_error"></span>
+          <div class="form-group">
+            <label for="email1">Work Email address</label>
+            <input type="email" class="form-control" id="formData2email"  name="email" aria-describedby="emailHelp" placeholder="Enter email">
+          
+          </div>
+          <span id="formData2email_error"></span>
+          <div class="form-group">
+            <label for="password1">Number</label>
+            <input type="number" class="form-control" id="formData2number" name="number" placeholder="Enter your Number">
+               
+          </div>
+          <span id="formData2email_error"></span>
+          <div class="form-group">
+            <label for="password1">Job Title</label>
+            <input type="text" class="form-control" id="formData2job_title" name="job_title" placeholder="Enter Job Title">               
+          </div>
+          
+          <span id="formData2email_error"></span>
+          <div class="form-group">
+            <label for="password1">Company</label>
+            <input type="text" class="form-control" id="formData2company" name="company" placeholder="Enter Company">               
+          </div>
+          <span id="formData2phone_error"></span>
+          <div class="form-group">
+            <label for="password1">Pricing</label>
+            <select name="register" required class="form-control" id="formData2register">
+                <option value="">Select</option>
+                <option value="Student / NGO">Student / NGO</option>
+                <option value="Delegate : 49 €">Delegate : 49 €</option>
+                <option value="Solution provider/Consultant : 99 €">Solution provider/Consultant : 99 €</option>
+                </select>
+               
+          </div>
+          <span id="formData2register_error"></span>
+            <div class="form-group">
+            <label for="password1">Coupon Code</label>
+            <input type="text" class="form-control" id="formData2coupon_code" name="coupon_code" placeholder="Enter Coupon Code">
+               
+          </div>
+        </div>
+        <div class="modal-footer border-top-0 d-flex justify-content-center">
+          <button type="button" onclick="sendMail(2)" class="btn btn-success">Reserve your pass now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+        
+<div class="modal fade" id="form2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h3 class="modal-title" id="exampleModalLabel">Sponsorship</h3>
+            <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="formData3">
+        <div class="modal-body">
+                 <div class="form-group">
+            <label for="email1">Name</label>
+            <input type="name" class="form-control" id="formData3name"  name="name" aria-describedby="emailHelp" placeholder="Enter your name">
+            <input type="hidden" name="current_url" value="https://www.groupfuturista.com/FOCA2.0/" id="current_url">
+          </div>
+          <span id="formData3name_error"></span>
+          <input type="hidden" class="form-control"  name="subject" value="Interested in Sponsor" >
+          <div class="form-group">
+            <label for="email1">Work Email address</label>
+            <input type="email" class="form-control" id="formData3email"  name="email" aria-describedby="emailHelp" placeholder="Enter Your Work Email">
+          </div>
+          <span id="formData3email_error"></span>
+          <div class="form-group">
+            <label for="password1">Number</label>
+            <input type="number" class="form-control" id="formData3number" name="number" placeholder="Enter Your Number">
+          </div>
+          <span id="formData3number_error"></span>
+          <div class="form-group">
+            <label for="password1">Message</label>
+            </div>
+           <textarea rows="4" cols="67" name="comment" > </textarea>
+        </div>
+        <div class="modal-footer border-top-0 d-flex justify-content-center">
+          <button type="button" onclick="sendMail(3)" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+                
+        </section>
+        <!-- end of hero slider -->
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="email1">Email address</label>
+            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
+          </div>
+          <div class="form-group">
+            <label for="password1">Password</label>
+            <input type="password" class="form-control" id="password1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="password1">Confirm Password</label>
+            <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
+          </div>
+        </div>
+        <div class="modal-footer border-top-0 d-flex justify-content-center">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+        
+    <section id="partners" class="mb-medium bgCover_1" style="display:none;"><div class="container"></div><style>
+#partners{ padding:0; text-align:center; margin-bottom:35px;  }
+#partners .page_hdng h2{color:rgba(0,0,0,.3);}
+
+#partners section{display:inline-block; margin:0 20px 35px; text-align:center; min-width:145px;}
+#partners section.multi{margin:50px 15px 30px;}
+#partners section.multi img{margin:0 15px;}
+#partners h4{font-size:24px; margin-bottom:25px; font-weight: 600;color: #32CD32;}
+
+@media screen and (max-width:992px){
+#partners section.multi, #partners section{margin:50px 20px 20px;}
+#partners section.multi img{margin:0 18px;}
+}
+
+@media screen and (max-width:639px){
+#partners{    margin-bottom: 15px;}
+#partners section h4{margin-bottom:10px; font-size: 16px;}
+#partners section.multi, #partners section{margin:0 15px 20px;}
+}
+</style>
+<div class="container" >
+    <div class="row">
+        <div class="col-md-9 animatedParent animateOnce">
+        <section class="animated delay-2s fadeInLeft">
+                <h4>Our Partners</h4>
+                 <a target="_blank"><img src="assets/images/master.png" alt=""></a>
+                 <a target="_blank"><img src="assets/images/axa.png" alt=""></a>
+             <a target="_blank"><img src="assets/images/morgan.png" alt=""></a>
+          </section>  
+       
+        
+          <section class="animated delay-2s fadeInLeft">
+                <h4>An Initiative By</h4>
+                 <a href="#" target="_blank"><img src="assets/images/future.png"></a>
+          </section>             
+        </div>
+        
+        <div class="col-md-3 animatedParent animateOnce">
+            <section class="animated delay-2s fadeInLeft">
+                <h4>Webinar Host</h4>
+                <div class="img-holder">
+                    <img src="assets/images/host.png" alt="">
+                </div>
+                <div class="host">
+                    <h5>Richard Hurst</h5>
+                </div>
+            </section>  
+        </div>        
+    </div>
+</div>
+</section>
+    </div>
+    
+        <!-- start about-section -->
+        <section class="about-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-7">
+                        <div class="section-title-s2">
+                            <span>Overview</span>
+                            <h2>Welcome to Futurecast Series <br><span class="color-6">  Volume 23</span> </h2>
+                        </div>
+                        <div class="about-content">
+                            <h4>In today’s highly competitive business environment, many companies and websites utilize conversational AI solutions to serve effective, personalized services to their customers.
+                            </h4><p>As per the predictions, the global conversational AI market is expected to grow to $15.7 billion by 2024 (with a 30.2 percent compound annual growth rate). The market is growing due to the rising demand for AI-powered customer support services &  positive return on investment (ROI) for companies. It has become significant for businesses to be available 24/7 with instant and personalized services in the appropriate language. This is where the conversational AI takes the centre stage, delivering human-like conversations over any channel, in any language. </p>
+                            <p>Considering these factors, Group Futurista hosts its next webinar on 'Future of Chatbots & Conversational AI 2nd Edition' to explore time- tested methods that harness the power of the conversational AI in the emerging COVID-19 landscape. Come join us.</p>                   
+                        </div>
+                    </div>
+            <div class="col-md-5 what-to-expect">
+            <h3>What to Expect?</h3>
+            <div class="row">
+                <section>
+                    <div class="inner">
+                        <img src="assets/images/upload-1585122566-icon1.png" alt="">
+                        <h4>Virtual Assistant</h4>
+                        <!--Connect, listen and learn with our live digital sessions.-->
+                    </div>
+                </section>
+                <section>
+                    <div class="inner">
+                        <img src="assets/images/upload-1585122688-icon2.png" alt="">
+                        <h4>Next Gen Customer Engagement</h4>
+                        <!--Conversations and deliberations that are contagious-->
+                    </div>
+                </section>
+                <section>
+                    <div class="inner">
+                        <img src="assets/images/upload-1585122703-icon3.png" alt="">
+                        <h4>Competitive Edge</h4>
+                        <!--Network Digitally with industry leaders across the globe-->
+                    </div>
+                </section>
+                <section>
+                    <div class="inner">
+                        <img src="assets/images/upload-1585122783-icon4.png" alt="">
+                        <h4>Seamless Experience</h4>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+            </div> 
+        </section>
+        <!-- end about-section -->
+
+   <section id="stats" class="mb-medium bgCover_1">
+       <div class="container">
+           <div class="row">
+				<div class="col-md-12">
+					<div class="page_hdng4">
+						<h2>Summit Highlights</h2>
+							<span></span> 
+							</div>
+						</div>
+					</div></div><style>
+#stats {background:url(assets/images/Focus-sigments.jpg) no-repeat top center; background-size:cover; padding:160px 0 80px; position:relative;    }
+#stats h2{color:#fff; }
+#stats section{padding:50px 30px 20px; color:#fff; float:left; width:25%; font-size:14px; line-height: 1.3em; min-height:305px   }
+#stats section h3{font-size:24px; font-weight:600;  line-height:1.3em; margin-bottom: 10px; color:#fff; min-height:110px;}
+#stats section + section{background:url(assets/images/upload-1583222454-divider2.jpg) no-repeat left bottom ; }
+#stats section h3 strong{display:block; font-size:48px; font-weight:600; line-height:1em; color:#32CD32;}
+
+@media screen and (max-width:767px){
+    #stats {padding:150px 0 20px; }
+    #stats section{padding: 10px 15px; width: 50%;}
+    #stats section + section{background:none; }
+    #stats section h3 strong{font-size:38px; }
+    #stats section h3{font-size:20px; min-height:95px;}
+}
+</style>
+
+<div class="container">
+    <div class="row">
+        <section>
+            <h3><strong>07+</strong> Knowledge Sessions</h3>
+The summit will consist of interesting web panel discussions, exclusive live fireside chats and engaging digital industry presentations.&nbsp;
+        </section>
+        <section>
+            <h3><strong>10+</strong> Industry<br> Leaders</h3>
+            Industry's thought leaders, decision-makers, and solution providers will gather virtually to discuss the latest trends, innovations, and technologies in the Artificial Intelligence (AI) Industry. 
+        </section>
+        <section>
+            <h3><strong>150+</strong>Attendees</h3>
+            Congregation of industry's top-level executives and senior officials for knowledge sharing.
+        </section>
+        <section>
+            <h3><strong>04+</strong>  Hours of Networking </h3>
+            Networking opportunity for solution and service providers with industry's top decision makers via digital exhibition, public live chats and private one-on-one video chats.
+        </section>
+    </div>    
+</div>
+</section>
+        
+<section id="dscn-topics" class="mb-medium bgCover_1" ><div class="container"><div class="row">
+	<div class="col-md-12">
+		<div class="page_hdng4">
+			<h2>Discussion Points</h2>
+				<span></span> 
+		</div>
+	</div>
+	</div>
+    </div>
+    
+    <style>
+#dscn-topics section {background:#32CD32; width:100%;height: 290px; margin-bottom:30px; position: relative; transition:all .25s ease; background-size:cover;  z-index:1;}    
+#dscn-topics section h4{color:#fff; font-size:16px; line-height: 1.4em; font-weight:400; padding-bottom:15px; position:absolute; left:30px; bottom:30px; padding-right: 15px; transition:all .25s ease; min-height:90px; z-index: 10; }
+#dscn-topics section h4 strong{font-size: 36px; font-weight:400; display:block; line-height:1.2em;  }
+ #dscn-topics section h4:after{position:absolute; left:0; bottom:0; background: #fff; height: 1px; content:""; display:block; width: 46px; }
+ #dscn-topics section:hover,  #dscn-topics section.hover {background:#32CD32; } 
+#dscn-topics section:hover h4, #dscn-topics section.hover h4{color:#fff }
+#dscn-topics section:hover h4:after, #dscn-topics section.hover h4:after{background:#fff;}
+#dscn-topics section.hvr-shutter-in-vertical {  -webkit-transform: perspective(1px) translateZ(0);  transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0);  position: relative; background: #15080d; -webkit-transition-property: color;transition-property: color; -webkit-transition-duration: 0.3s; transition-duration: 0.3s;}
+#dscn-topics section.hvr-shutter-in-vertical:before {content: "";  position: absolute; z-index: -1;top: 0; bottom: 0;  left: 0;  right: 0; background: #32CD32; -webkit-transform: scaleY(1); transform: scaleY(1);
+    -webkit-transform-origin: 50%;  transform-origin: 50%;  -webkit-transition-property: transform;
+    transition-property: transform; -webkit-transition-duration: 0.3s;  transition-duration: 0.3s;  -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; z-index: 5;}
+#dscn-topics section.hvr-shutter-in-vertical:hover:before { -webkit-transform: scaleY(0);  transform: scaleY(0);}
+
+
+@media screen and (max-width:767px){
+#dscn-topics section{height:210px;}
+#dscn-topics section h4{left:15px; bottom:20px; font-size:16px; }
+#dscn-topics section h4 strong{font-size: 22px; }
+}
+
+</style>
+
+<div class="container">
+    <div class="row">
+         <div class="col-md-3 col-xs-6">
+            <section class="hvr-shutter-in-vertical" style="background-image:url(); ">
+                <h4>How Conversational AI Solves Customer Experience</h4>
+            </section>    
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+            <section class="hvr-shutter-in-vertical" style="background-image:url(); ">
+                <h4>Conversational AI Powers the Future of Banking</h4>
+            </section>    
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+            <section class="hvr-shutter-in-vertical" style="background-image:url(); ">
+                <h4>Dealing With COVID-19: How Conversational AI Can Help With Business Continuity In Times Of Social Distancing</h4>
+            </section>    
+        </div>
+
+
+        <div class="col-md-3 col-xs-6">
+            <section class="hvr-shutter-in-vertical" style="background-image:url(); ">
+                <h4>From Dumb to Smart: Using Conversational Intelligence to Build a Smart Bot</h4>
+            </section>    
+        </div>
+
+        
+    </div>
+</div>
+</section>
+        
+        <section id="focus-segment" class="mb-medium bgCover_1"><div class="container"><div class="row">
+						<div class="col-md-12">
+							<div class="page_hdng4">
+								<h2>Who should attend?</h2>
+								<span></span> 
+							</div>
+						</div>
+					</div></div><style>
+#focus-segment{background:url(assets/images/Focus-sigments.jpg) no-repeat top center; background-size:cover; padding:70px 0 80px;}
+#focus-segment .page_hdng4 h2{color:#fff; }
+#focus-segment .page_hdng4 h2:after{background:#fff; }
+.display-style1 section{padding:0 30px; min-height:170px; color:#fff; }
+.display-style1 section + section{background:url(../../img.etb2bimg.com/files/cp/upload-1583222454-divider2.jpg) no-repeat top center; }
+.display-style1 section h3{font-size:20px; font-weight:600;color:#fff }
+
+@media screen and (max-width:767px){
+    #focus-segment{padding-bottom: 30px;}
+.display-style1 section{min-height:330px;}
+.display-style1 section h3{font-size:18px;}  
+.display-style1 section{margin-bottom: 30px; }
+.display-style1 section + section{background:none; }
+.display-style1 section:last-of-type{margin-bottom: 0;}
+}
+</style>
+	
+<div class="container">
+    <div class="row display-style1">
+        	<div class="col-md-12">
+        	<div class="page_hdng4">
+				<p>Industries</p>
+					<span></span> 
+			</div>
+        </div>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Retail</h3>
+         
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>E-commerce</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Pharmaceuticals</h3>
+         
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Automotive</h3>
+    
+        </section>
+          <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Energy Utility</h3>
+    
+        </section>
+          <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Oil & Gas</h3>
+    
+        </section>
+          <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Healthcare</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Travel & Tourism</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Airlines</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Food Delivery Service</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Customer Service</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Supply Chain & Logistics</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Marketing & Advertising</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Transportation</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Financial Services</h3>
+    
+        </section>
+        <section class="col-md-3 col-xs-6 text-style">
+            <img src="#" alt="">
+            <h3>Telecommunication</h3>
+        </section>
+        
+        	<div class="col-md-12">
+        	<div class="page_hdng4">
+								<h5>Job Titles </h5>
+								<span></span> 
+							</div></div>
+							<div class="col-sm-12">
+							        <p class="wow fadeInDown  animated" style="color: rgb(241, 245, 249); text-align: center; visibility: visible; animation-name: fadeInDown;">
+
+                					CXO, VP, Director, Head of
+
+                					</p>
+							    </div>
+							<div class="col-sm-6 col-md-6">
+									<div class="war-part wow zoomIn  animated" style="visibility: visible; animation-name: zoomIn;">
+										<ul class="war-list">
+											<li>Customer Experience</li>
+											<li>Technology & Innovation</li>
+											<li>Digital Engagements</li>
+											<li>Customer Service</li>
+											<li>Digital transformation</li>
+											<li>Digitalization</li>
+											<li>Artificial Intelligence </li>
+											<li>Conversational AI</li>											
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-6">
+									<div class="war-part wow zoomIn  animated" style="visibility: visible; animation-name: zoomIn;">
+										<ul class="war-list">
+											<li>Customer Experience</li>
+											<li>Technology & Innovation</li>
+											<li>Digital Engagements</li>
+											<li>Customer Service</li>
+											<li>Digital transformation</li>
+											<li>Digitalization</li>
+											<li>Artificial Intelligence </li>
+											<li>Conversational AI</li>											
+										</ul>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </section>
+						
+        <div class="team-section section-padding black-opchity">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-12">
+                        <div class="section-title-s4">
+                            <span>Speakers</span>
+                            <h2>Our <br> <span class="color-6"> Speakers</span></h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="team-grids clearfix">
+                         
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/team/Chaitanya%20Hiremath.png" alt>
+                                </div>
+                                <div class="member-info">
+                                    <ul class="social-links">
+                                        <li><a href="#" class="bg-color-3"><i class="ti-linkedin"></i></a></li>                                       
+                                    </ul>
+                                    <div class="details">
+                                        <h4>Chaitanya Hiremath</h4>
+                                        <span class="post">Founder & CEO<br>Scanta</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="team-section section-padding black-opchity">
+    <section class="faq-pg-section secartners">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/Cointelegraph.png">
+                        </a>
+                    </div>
+                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-10 col-lg-offset-1">
+                        <div class="section-title-s2">
+                            <span>Media</span>
+                            <h2>Media P </h2>
+                
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/TheAIJournal.jpg">
+                        </a>
+                    </div>
+                </div>
+               <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/TheChatbot.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/Fintechna.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/BiometricUpdate.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/THE-AI-Journal.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/Industry-Events.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="speaker-small wow zoomIn  animated" style="background-color: rgb(255, 255, 255); visibility: visible;">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/partners/ILF.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    
+    <section class="faq-pg-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-9">
+                        <div class="section-title-s2">
+                            <span>FAQ</span>
+                            <h2>Frequently asked question</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-9 col-sm-12">
+                        <div class="faq-section">
+                            <div class="panel-group faq-accordion theme-accordion-s1" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false" class="collapsed">Where will the event be held?</a>
+                                    </div>
+                                    <div id="collapse-1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <p>This is an online event. You do not have to travel to any specific location. You can participate from your convenient location. The virtual event is accessible from a computer, mobile and tablet devices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false">How do I log-in on the day of the virtual event?</a>
+                                    </div>
+                                    <div id="collapse-2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <p>Your login details will be emailed to you ahead of the event. You can use those details to access the online event.   </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a class="" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="true">Can I invite my colleagues and friends to attend the virtual event?</a>
+                                    </div>
+                                    <div id="collapse-3" class="panel-collapse collapse in" aria-expanded="true">
+                                        <div class="panel-body">
+                                        <p>Absolutely. We are counting on you to invite others! Help us spread the word. You can simply share the link to this page, and they can register at their convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+  <!-- start site-footer -->
+        <footer class="site-footer bg-img-1 low-opchity">
+            <div class="upper-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-4 col-md-4 col-sm-6">
+                            <div class="widget about-widget">
+                                <div class="logo widget-title">
+                                    <a href="#"><img src="assets/images/logo1.png" alt></a>
+                                </div>
+                                <p>The 21st century has seen a complete change in the way life operates on this planet. We are at the cusp of the 4th Industrial Revolution that will be based on the code, data or information based social and economic system.</p>
+
+                                <form>
+                                    <div class="input-1">
+                                        <input type="email" class="form-control" placeholder="Email Address *" required>
+                                    </div>
+                                    <div class="submit clearfix">
+                                        <button type="submit"><i class="ti-email"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-4 col-md-4 col-sm-6">
+                            <div class="widget contact-widget">
+                                <div class="widget-title">
+                                    <h3>Contact Info</h3>
+                                </div>
+                                <div class="entry-add">
+                                    <div class="add">
+                                        <div class="info"> Group Futurista OU. <br> 
+                                            Harju maakond, Kuusalu Vald, <br> 
+                                            Pudisoo Kula, Mannimae, 74626.</div>
+                                    </div>
+                                </div>
+
+                                <ul>
+                                    <li><span>Phone:</span> +44 203 432 7761 </li>
+                                    <li><span>Email:</span> jennifer@groupfuturista.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-4 col-md-4 col-sm-6">
+                            <div class="widget-title">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <div class="widget instagram-widget">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-1.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-3.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-4.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-5.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-6.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-7.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-8.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/add/flickr-thumb-9.png" alt="" class="img img-responsive"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end container -->
+            </div>
+            <div class="lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="separator"></div>
+                        <div class="col col-xs-12">
+                            <p class="copyright">Copyright@ 2020. All rights reserved by Sherya Choudhary.</p>
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end site-footer -->
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
